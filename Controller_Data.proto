@@ -4,7 +4,7 @@ import "DPad.proto";
 import "Buttons.proto";
 import "Joystick.proto";
 
-message ControllerData {
+message Controller_Data {
     Joystick rightJoystick = 1;
     Joystick leftJoystick = 2;
 
