@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "DPad.proto";
+import "Buttons.proto";
+import "Joystick.proto";
+
+message Controller {
+    Joystick rightJoystick = 1;
+    Joystick leftJoystick = 2;
+
+    Buttons buttons = 3;
+    DPad dPad = 4;
+
+    uint32 rightTrigger = 5;
+    uint32 leftTrigger = 6;
+}

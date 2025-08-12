@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message Joystick {
+    sint32 x_axis = 1;
+    sint32 y_axis = 2;
+}

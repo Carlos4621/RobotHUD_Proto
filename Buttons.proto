@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+message Buttons {
+    bool a = 1;
+    bool b = 2;
+    bool x = 3;
+    bool y = 4;
+
+    bool rb = 5;
+    bool lb = 6;
+
+    bool start = 7;
+    bool select = 8;
+}
