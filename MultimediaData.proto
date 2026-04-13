@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-message WiFiPacket {
+message MultimediaData {
 	bytes mainCamera = 1;
 	bytes secondaryCamera = 2;
 
