@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message WiFiPacket {
+	bytes mainCamera = 1;
+	bytes secondaryCamera = 2;
+
+	bytes audioBuffer = 3;
+}
