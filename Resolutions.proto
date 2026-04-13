@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum Resolutions {
+    _480p = 0;
+    _240p = 1;
+    _144p = 2;
+}

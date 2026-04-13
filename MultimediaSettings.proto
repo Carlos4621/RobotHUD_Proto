@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Resolutions.proto";
+
+message MultimediaSettings {
+    uint32 cameraFPS = 1;
+    uint32 quality = 2;
+    bool grayScale = 3;
+
+    Resolutions resolution = 4;
+}
